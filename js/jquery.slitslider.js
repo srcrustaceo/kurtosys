@@ -411,6 +411,7 @@
 			
 			this.$el.css( cssStyle ).find( 'div.sl-content-wrapper' ).css( cssStyle );
 			$('div.demo-1').css( cssStyle );
+			$('#dvTablesJson').css({"margin-top" : this.size.height+50});
 		
 		},
 		_loadEvents : function() {
